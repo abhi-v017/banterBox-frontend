@@ -1,4 +1,4 @@
-// src/utils/helpers.js — Shared utility functions
+// src/utils/helpers.js
 
 /**
  * Return the other participant in a 1-to-1 chat.
@@ -12,9 +12,9 @@ export const getOtherParticipant = (chat, myId) => {
 
 /**
  * Human-readable timestamp for chat list previews:
- *   Today   → "3:42 PM"
+ *   Today    → "3:42 PM"
  *   This week → "Mon"
- *   Older   → "12/25"
+ *   Older    → "12/25"
  */
 export const formatTime = (dateStr) => {
   if (!dateStr) return '';
@@ -30,7 +30,9 @@ export const formatTime = (dateStr) => {
     return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
   }
   const diffDays = Math.floor((now - d) / 86400000);
-  if (diffDays < 7) return d.toLocaleDateString('en-US', { weekday: 'short' });
+  if (diffDays < 7) {
+    return d.toLocaleDateString('en-US', { weekday: 'short' });
+  }
   return d.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' });
 };
 
@@ -39,7 +41,10 @@ export const formatTime = (dateStr) => {
  */
 export const formatMsgTime = (dateStr) => {
   if (!dateStr) return '';
-  return new Date(dateStr).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  return new Date(dateStr).toLocaleTimeString('en-US', {
+    hour:   'numeric',
+    minute: '2-digit',
+  });
 };
 
 /**
@@ -54,5 +59,5 @@ export const formatDuration = (secs) => {
 /**
  * Truncate string with ellipsis.
  */
-export const truncate = (str = '', max = 40) =>
+export const truncate = (str = '', max = 50) =>
   str.length > max ? str.slice(0, max) + '…' : str;
