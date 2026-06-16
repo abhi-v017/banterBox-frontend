@@ -76,7 +76,7 @@ export default function LoginScreen({ navigation }) {
             <View style={s.logoCircle}>
               <Text style={s.logoEmoji}>💬</Text>
             </View>
-            <Text style={s.appName}>APNA</Text>
+            <Text style={s.appName}>BanterBox</Text>
             <Text style={s.tagline}>Fast · Private · Real-time</Text>
           </View>
 
