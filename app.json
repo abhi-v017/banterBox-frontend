@@ -1,20 +1,20 @@
 {
   "expo": {
-    "name": "BanterBox",
-    "slug": "banterbox",
+    "name": "Chattr",
+    "slug": "chattr",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash-icon.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.abekrox.banterbox",
+      "bundleIdentifier": "com.abekrox.chattr",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -22,14 +22,14 @@
     "android": {
       "softwareKeyboardLayoutMode": "resize",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.jpg",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.abekrox.banterbox"
+      "package": "com.abekrox.chattr"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.jpg"
     },
     "owner": "abekrox",
     "extra": {

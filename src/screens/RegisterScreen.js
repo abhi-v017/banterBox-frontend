@@ -134,8 +134,7 @@ export default function RegisterScreen({ navigation }) {
             <View style={s.form}>
               <Text style={s.title}>Create Account</Text>
               <Text style={s.sub}>
-                Your email is kept private. Other users can never see it. You
-                can create up to 3 accounts with one email.
+                You can create up to 3 accounts with one email.
               </Text>
               <Text style={s.label}>Email Address</Text>
               <TextInput

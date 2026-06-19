@@ -1,6 +1,6 @@
-# BanterBox Frontend
+# Chattr Frontend
 
-The mobile client for **BanterBox**, a real-time chat and communication application. Built with React Native and Expo, this application delivers a seamless and highly responsive user experience across both iOS and Android platforms, featuring instant messaging, media sharing, and real-time audio/video capabilities.
+The mobile client for **Chattr**, a real-time chat and communication application. Built with React Native and Expo, this application delivers a seamless and highly responsive user experience across both iOS and Android platforms, featuring instant messaging, media sharing, and real-time audio/video capabilities.
 
 ## 🚀 Features
 

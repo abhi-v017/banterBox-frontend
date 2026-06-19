@@ -198,7 +198,7 @@ export default function ChatScreen({ navigation, route }) {
       {/* ── Body: messages + input, keyboard-aware ───────────── */}
       <KeyboardAvoidingView
         style={s.body}
-        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
         // On iOS, offset by header height so messages don't go under header
         keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 0}
       >
