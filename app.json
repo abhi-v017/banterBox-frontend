@@ -29,7 +29,9 @@
       "package": "com.abekrox.chattr"
     },
     "web": {
-      "favicon": "./assets/favicon.jpg"
+      "favicon": "./assets/favicon.jpg",
+      "output": "single",
+      "bundler": "metro"
     },
     "owner": "abekrox",
     "extra": {

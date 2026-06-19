@@ -19,6 +19,15 @@
       },
       "distribution": "internal"
     },
+    "apk": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://bakaiti-backend.onrender.com/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://bakaiti-backend.onrender.com"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
     "production": {
       "env": {
         "EXPO_PUBLIC_API_URL": "https://bakaiti-backend.onrender.com/api",
